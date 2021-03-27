@@ -9,6 +9,6 @@ jobs:
   test:
     docker: 
       - image: cimg/node:15.11.0
-     steps:
+    steps:
       - checkout
       - run: node --version
